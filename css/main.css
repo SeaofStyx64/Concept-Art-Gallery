@@ -1,0 +1,63 @@
+body {
+    background-color:black;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+main {
+  color: white;
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  }
+
+#nav:hover {
+    filter: hue-rotate(90deg);
+  }
+
+#divnav:hover {
+    filter: brightness(50%);
+  }
+
+#game {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    outline-width: thick;
+    outline-style: groove;
+    text-decoration: none;
+}
+
+#game:hover {
+  opacity: 75%;
+  text-decoration: none;
+}
+
+section {
+  outline-style: groove; 
+  outline-width: thick; 
+  outline-color:aqua;
+}
+
+#concept {
+  margin-left: auto;
+  margin-right: auto;
+  outline-width: thin;
+  outline-color: gold;
+  outline-style: solid;
+}
+
+h3 {
+  color: aliceblue;
+  text-shadow: 2px 2px black;
+}
+
+h4 {
+  color: gold;
+  text-shadow: 1px 1px goldenrod;
+}
